@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl:'./header.component.css'  
 })
 export class HeaderComponent implements OnInit {
+    //This fuction will be called when hamburger munu is clicked
   myFunc() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
